@@ -8,7 +8,7 @@
 .pnp.js
 */firestore
 /firestore.*
-firebase.json
+/firebase.json
 
 # testing
 /coverage
