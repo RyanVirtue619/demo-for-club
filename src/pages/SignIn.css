@@ -1,0 +1,19 @@
+.sign-in-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  flex-direction: column;
+}
+
+.sign-in-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-text {
+  width: fit-content;
+  margin: 20px;
+  font-size: 25px;
+}

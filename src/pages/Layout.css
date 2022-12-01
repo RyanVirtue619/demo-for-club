@@ -1,0 +1,88 @@
+* {
+  font-family: Arial;
+  padding: 0;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.navbar-elements {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border-top: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+  margin: 0;
+}
+
+.user-page-container,
+.select-user-container,
+.home-container,
+.sign-in-container {
+  margin: 0px 10px 0px 0px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --itemwidth: 100%;
+  width: var(--itemwidth);
+  margin: 0px;
+}
+
+.user-page-container,
+.select-user-container,
+.sign-in-container {
+  border-right-width: 0;
+}
+
+.home-container,
+.user-page-container {
+  border-left-width: 0;
+}
+
+.router-link {
+  height: 30px;
+  width: 30px;
+  border-radius: 0px;
+  border: 3px solid darkgray;
+  margin: 0px;
+}
+
+.home-link,
+.user-page-link,
+.select-user-link,
+.account-link,
+.signin-link,
+.account-link:visited,
+.signin-link:visited,
+.home-link:visited,
+.user-page-link:visited,
+.select-user-link:visited {
+  transition: 0.15s;
+  color: black;
+  background-color: lightgray;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-link:hover,
+.user-page-link:hover,
+.select-user-link:hover,
+.signin-link:hover,
+.account-link:hover {
+  transition: 0.15s;
+  border-color: rgb(197, 197, 197);
+  background-color: rgb(197, 197, 197);
+}

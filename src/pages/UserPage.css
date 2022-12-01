@@ -1,0 +1,72 @@
+.user-page {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: lightgrey;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+.name-container,
+.age-container {
+  font-family: Arial;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-width: 200px;
+  margin: 10px;
+  height: 33px;
+  background-color: rgb(226, 226, 226);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.age-container {
+  margin-bottom: 10px;
+}
+
+.edit-user-link,
+.from-user-select-user-link {
+  color: black;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-user-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-user-link {
+  transition: 0.15s;
+  background: rgb(158, 158, 218);
+  padding: 5px;
+  border-radius: 1px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  width: 100px;
+}
+
+.user-name,
+.user-age {
+  margin-left: 4px;
+}
+
+.edit-user-link:hover {
+  transition: 0.15s;
+  background: rgb(148, 148, 148);
+}

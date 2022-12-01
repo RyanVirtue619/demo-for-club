@@ -1,0 +1,95 @@
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edit-container {
+  width: 1002px;
+  border: 1px solid black;
+}
+
+.edit-age-field,
+.edit-name-field {
+  font-family: Arial;
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 1fr 400px 200px;
+  align-items: stretch;
+  min-height: 100px;
+  padding-left: 20px;
+}
+.current-age,
+.current-name {
+  font-size: 20px;
+  line-height: calc(100%);
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.age-input,
+.name-input {
+  text-align: left;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding-left: 5px;
+  height: 50%;
+  background-color: white;
+  width: 100%;
+  margin: 0px 40px;
+}
+
+.age-input-container,
+.name-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  width: 100%;
+  height: 100%;
+}
+
+.name-button-container {
+  display: flex;
+  padding: 0;
+  margin-bottom: -0.333px;
+}
+
+.set-age-button,
+.set-name-button {
+  transition: 0.15s;
+  font-size: 25px;
+  background-color: lightgray;
+  height: calc(100% + 4px);
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  padding: 0;
+}
+
+.set-age-button:hover,
+.set-name-button:hover {
+  transition: 0.15s;
+  cursor: pointer;
+  background-color: rgb(222, 222, 222);
+}
+
+.from-edit-user-page-link {
+  transition: 0.15s;
+  margin: 10px;
+  color: black;
+  background-color: rgb(171, 171, 171);
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.from-edit-user-page-link:hover {
+  transition: 0.15s;
+  background-color: rgb(186, 186, 186);
+}

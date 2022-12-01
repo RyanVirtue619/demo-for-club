@@ -1,0 +1,12 @@
+.description {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

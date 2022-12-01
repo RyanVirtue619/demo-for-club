@@ -1,0 +1,67 @@
+.account-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.account-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.account-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgray;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.logout-button,
+.public-toggle,
+.delete-button,
+.edit-public,
+.set-public-with-age,
+.exit-create-user {
+  transition: 0.15s;
+  font-size: 16px;
+  margin: 5px;
+  color: black;
+  background-color: rgb(250, 250, 250);
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.logout-button:hover,
+.public-toggle:hover,
+.delete-button:hover,
+.edit-public:hover,
+.set-public-with-age:hover,
+.exit-create-user:hover {
+  cursor: pointer;
+  transition: 0.15s;
+  background-color: rgb(240, 240, 240);
+}
+
+.exit-create-user {
+  background-color: rgb(255, 218, 233);
+}
+
+.exit-create-user:hover {
+  background-color: rgb(245, 208, 223);
+}
+
+.edit-age-input {
+  margin: 5px;
+  font-size: 16px;
+  padding: 5px;
+  border-width: 1px;
+  border-radius: 2px;
+}
